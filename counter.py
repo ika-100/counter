@@ -4,7 +4,7 @@ count = 0
 while True:
     user_input = input("数字を入力してください(終了するには q): ")
 
-    if user_input == "q":
+    if user_input.lower() == "q":
         print(f"最終的な成功回数: {count}")
         break
 
